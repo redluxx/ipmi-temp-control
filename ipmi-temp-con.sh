@@ -1,5 +1,7 @@
 # Fan speed control through ipmi
-# IPMI control must be set to admin inside iDrac 
+# IPMI control must be set to administrator inside iDrac and enabled. (To confirm other roles)
+# Log in > iDrac Settings > Network/Secruity > Scroll down to IPMI Settings
+# For dynamic management run as a service or always on host.
 
 # Command to see fan speeds
 # ipmitool -I lanplus -H IPADDRESS -U USER -P PASSWORD sdr type fan
