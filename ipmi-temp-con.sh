@@ -6,7 +6,7 @@
 # Command to see fan speeds
 # ipmitool -I lanplus -H IPADDRESS -U USER -P PASSWORD sdr type fan
 
-# root & clavin are iDrac6 default credentials 
+# root & calvin are iDrac6 default credentials 
 # IPMI SETTINGS:
 R210=IPADDRESS
 IPMIUSER=root
